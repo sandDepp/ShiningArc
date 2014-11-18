@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFF95631A1AECCA004EA1B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFF95621A1AECCA004EA1B4 /* Foundation.framework */; };
+		BFFF95651A1AECCA004EA1B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFF95641A1AECCA004EA1B4 /* CoreGraphics.framework */; };
+		BFFF95671A1AECCA004EA1B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFF95661A1AECCA004EA1B4 /* UIKit.framework */; };
+		BFFF956D1A1AECCA004EA1B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFFF956B1A1AECCA004EA1B4 /* InfoPlist.strings */; };
+		BFFF956F1A1AECCA004EA1B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFF956E1A1AECCA004EA1B4 /* main.m */; };
+		BFFF95731A1AECCB004EA1B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFF95721A1AECCA004EA1B4 /* AppDelegate.m */; };
+		BFFF95761A1AECCB004EA1B4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFF95741A1AECCB004EA1B4 /* Main_iPhone.storyboard */; };
+		BFFF95791A1AECCB004EA1B4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFF95771A1AECCB004EA1B4 /* Main_iPad.storyboard */; };
+		BFFF957C1A1AECCB004EA1B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFF957B1A1AECCB004EA1B4 /* ViewController.m */; };
+		BFFF957E1A1AECCB004EA1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFF957D1A1AECCB004EA1B4 /* Images.xcassets */; };
+		BFFF95851A1AECCB004EA1B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFF95841A1AECCB004EA1B4 /* XCTest.framework */; };
+		BFFF95861A1AECCB004EA1B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFF95621A1AECCA004EA1B4 /* Foundation.framework */; };
+		BFFF95871A1AECCB004EA1B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFF95661A1AECCA004EA1B4 /* UIKit.framework */; };
+		BFFF958F1A1AECCB004EA1B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFFF958D1A1AECCB004EA1B4 /* InfoPlist.strings */; };
+		BFFF95911A1AECCB004EA1B4 /* ShiningArcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFF95901A1AECCB004EA1B4 /* ShiningArcTests.m */; };
+		BFFF959C1A1AED65004EA1B4 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFF959B1A1AED65004EA1B4 /* CircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFFF95881A1AECCB004EA1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFF95571A1AECCA004EA1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFF955E1A1AECCA004EA1B4;
+			remoteInfo = ShiningArc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFFF955F1A1AECCA004EA1B4 /* ShiningArc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiningArc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFF95621A1AECCA004EA1B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFFF95641A1AECCA004EA1B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFFF95661A1AECCA004EA1B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFFF956A1A1AECCA004EA1B4 /* ShiningArc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShiningArc-Info.plist"; sourceTree = "<group>"; };
+		BFFF956C1A1AECCA004EA1B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFFF956E1A1AECCA004EA1B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFFF95701A1AECCA004EA1B4 /* ShiningArc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShiningArc-Prefix.pch"; sourceTree = "<group>"; };
+		BFFF95711A1AECCA004EA1B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFFF95721A1AECCA004EA1B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFFF95751A1AECCB004EA1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BFFF95781A1AECCB004EA1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BFFF957A1A1AECCB004EA1B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFFF957B1A1AECCB004EA1B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFFF957D1A1AECCB004EA1B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFFF95831A1AECCB004EA1B4 /* ShiningArcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiningArcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFF95841A1AECCB004EA1B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFFF958C1A1AECCB004EA1B4 /* ShiningArcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShiningArcTests-Info.plist"; sourceTree = "<group>"; };
+		BFFF958E1A1AECCB004EA1B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFFF95901A1AECCB004EA1B4 /* ShiningArcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiningArcTests.m; sourceTree = "<group>"; };
+		BFFF959A1A1AED65004EA1B4 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		BFFF959B1A1AED65004EA1B4 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFF955C1A1AECCA004EA1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFF95651A1AECCA004EA1B4 /* CoreGraphics.framework in Frameworks */,
+				BFFF95671A1AECCA004EA1B4 /* UIKit.framework in Frameworks */,
+				BFFF95631A1AECCA004EA1B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFF95801A1AECCB004EA1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFF95851A1AECCB004EA1B4 /* XCTest.framework in Frameworks */,
+				BFFF95871A1AECCB004EA1B4 /* UIKit.framework in Frameworks */,
+				BFFF95861A1AECCB004EA1B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFF95561A1AECCA004EA1B4 = {
+			isa = PBXGroup;
+			children = (
+				BFFF95681A1AECCA004EA1B4 /* ShiningArc */,
+				BFFF958A1A1AECCB004EA1B4 /* ShiningArcTests */,
+				BFFF95611A1AECCA004EA1B4 /* Frameworks */,
+				BFFF95601A1AECCA004EA1B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFF95601A1AECCA004EA1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFF955F1A1AECCA004EA1B4 /* ShiningArc.app */,
+				BFFF95831A1AECCB004EA1B4 /* ShiningArcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFF95611A1AECCA004EA1B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFFF95621A1AECCA004EA1B4 /* Foundation.framework */,
+				BFFF95641A1AECCA004EA1B4 /* CoreGraphics.framework */,
+				BFFF95661A1AECCA004EA1B4 /* UIKit.framework */,
+				BFFF95841A1AECCB004EA1B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFFF95681A1AECCA004EA1B4 /* ShiningArc */ = {
+			isa = PBXGroup;
+			children = (
+				BFFF95711A1AECCA004EA1B4 /* AppDelegate.h */,
+				BFFF95721A1AECCA004EA1B4 /* AppDelegate.m */,
+				BFFF95741A1AECCB004EA1B4 /* Main_iPhone.storyboard */,
+				BFFF95771A1AECCB004EA1B4 /* Main_iPad.storyboard */,
+				BFFF957A1A1AECCB004EA1B4 /* ViewController.h */,
+				BFFF957B1A1AECCB004EA1B4 /* ViewController.m */,
+				BFFF959A1A1AED65004EA1B4 /* CircleView.h */,
+				BFFF959B1A1AED65004EA1B4 /* CircleView.m */,
+				BFFF957D1A1AECCB004EA1B4 /* Images.xcassets */,
+				BFFF95691A1AECCA004EA1B4 /* Supporting Files */,
+			);
+			path = ShiningArc;
+			sourceTree = "<group>";
+		};
+		BFFF95691A1AECCA004EA1B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFFF956A1A1AECCA004EA1B4 /* ShiningArc-Info.plist */,
+				BFFF956B1A1AECCA004EA1B4 /* InfoPlist.strings */,
+				BFFF956E1A1AECCA004EA1B4 /* main.m */,
+				BFFF95701A1AECCA004EA1B4 /* ShiningArc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFFF958A1A1AECCB004EA1B4 /* ShiningArcTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFF95901A1AECCB004EA1B4 /* ShiningArcTests.m */,
+				BFFF958B1A1AECCB004EA1B4 /* Supporting Files */,
+			);
+			path = ShiningArcTests;
+			sourceTree = "<group>";
+		};
+		BFFF958B1A1AECCB004EA1B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFFF958C1A1AECCB004EA1B4 /* ShiningArcTests-Info.plist */,
+				BFFF958D1A1AECCB004EA1B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFF955E1A1AECCA004EA1B4 /* ShiningArc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFF95941A1AECCB004EA1B4 /* Build configuration list for PBXNativeTarget "ShiningArc" */;
+			buildPhases = (
+				BFFF955B1A1AECCA004EA1B4 /* Sources */,
+				BFFF955C1A1AECCA004EA1B4 /* Frameworks */,
+				BFFF955D1A1AECCA004EA1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiningArc;
+			productName = ShiningArc;
+			productReference = BFFF955F1A1AECCA004EA1B4 /* ShiningArc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFFF95821A1AECCB004EA1B4 /* ShiningArcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFF95971A1AECCB004EA1B4 /* Build configuration list for PBXNativeTarget "ShiningArcTests" */;
+			buildPhases = (
+				BFFF957F1A1AECCB004EA1B4 /* Sources */,
+				BFFF95801A1AECCB004EA1B4 /* Frameworks */,
+				BFFF95811A1AECCB004EA1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFF95891A1AECCB004EA1B4 /* PBXTargetDependency */,
+			);
+			name = ShiningArcTests;
+			productName = ShiningArcTests;
+			productReference = BFFF95831A1AECCB004EA1B4 /* ShiningArcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFF95571A1AECCA004EA1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sand;
+				TargetAttributes = {
+					BFFF95821A1AECCB004EA1B4 = {
+						TestTargetID = BFFF955E1A1AECCA004EA1B4;
+					};
+				};
+			};
+			buildConfigurationList = BFFF955A1A1AECCA004EA1B4 /* Build configuration list for PBXProject "ShiningArc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFFF95561A1AECCA004EA1B4;
+			productRefGroup = BFFF95601A1AECCA004EA1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFF955E1A1AECCA004EA1B4 /* ShiningArc */,
+				BFFF95821A1AECCB004EA1B4 /* ShiningArcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFF955D1A1AECCA004EA1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFF95791A1AECCB004EA1B4 /* Main_iPad.storyboard in Resources */,
+				BFFF957E1A1AECCB004EA1B4 /* Images.xcassets in Resources */,
+				BFFF95761A1AECCB004EA1B4 /* Main_iPhone.storyboard in Resources */,
+				BFFF956D1A1AECCA004EA1B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFF95811A1AECCB004EA1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFF958F1A1AECCB004EA1B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFF955B1A1AECCA004EA1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFF959C1A1AED65004EA1B4 /* CircleView.m in Sources */,
+				BFFF957C1A1AECCB004EA1B4 /* ViewController.m in Sources */,
+				BFFF95731A1AECCB004EA1B4 /* AppDelegate.m in Sources */,
+				BFFF956F1A1AECCA004EA1B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFF957F1A1AECCB004EA1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFF95911A1AECCB004EA1B4 /* ShiningArcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFFF95891A1AECCB004EA1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFFF955E1A1AECCA004EA1B4 /* ShiningArc */;
+			targetProxy = BFFF95881A1AECCB004EA1B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFFF956B1A1AECCA004EA1B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFF956C1A1AECCA004EA1B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFFF95741A1AECCB004EA1B4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFF95751A1AECCB004EA1B4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BFFF95771A1AECCB004EA1B4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFF95781A1AECCB004EA1B4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BFFF958D1A1AECCB004EA1B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFF958E1A1AECCB004EA1B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFF95921A1AECCB004EA1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFFF95931A1AECCB004EA1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFFF95951A1AECCB004EA1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShiningArc/ShiningArc-Prefix.pch";
+				INFOPLIST_FILE = "ShiningArc/ShiningArc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFFF95961A1AECCB004EA1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShiningArc/ShiningArc-Prefix.pch";
+				INFOPLIST_FILE = "ShiningArc/ShiningArc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFFF95981A1AECCB004EA1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShiningArc.app/ShiningArc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShiningArc/ShiningArc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShiningArcTests/ShiningArcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFFF95991A1AECCB004EA1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShiningArc.app/ShiningArc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShiningArc/ShiningArc-Prefix.pch";
+				INFOPLIST_FILE = "ShiningArcTests/ShiningArcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFF955A1A1AECCA004EA1B4 /* Build configuration list for PBXProject "ShiningArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFF95921A1AECCB004EA1B4 /* Debug */,
+				BFFF95931A1AECCB004EA1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFF95941A1AECCB004EA1B4 /* Build configuration list for PBXNativeTarget "ShiningArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFF95951A1AECCB004EA1B4 /* Debug */,
+				BFFF95961A1AECCB004EA1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFFF95971A1AECCB004EA1B4 /* Build configuration list for PBXNativeTarget "ShiningArcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFF95981A1AECCB004EA1B4 /* Debug */,
+				BFFF95991A1AECCB004EA1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFF95571A1AECCA004EA1B4 /* Project object */;
+}
